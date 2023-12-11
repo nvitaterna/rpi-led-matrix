@@ -1,5 +1,5 @@
 {
-  "name": "rpi-led-matrix",
+  "name": "@nvitaterna/rpi-led-matrix",
   "version": "1.15.0",
   "description": "Node.js/Typescript bindings for hzeller/rpi-rgb-led-matrix",
   "main": "dist/index.js",
@@ -13,12 +13,12 @@
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/alexeden/rpi-led-matrix/issues"
+    "url": "https://github.com/nvitaterna/rpi-led-matrix/issues"
   },
-  "homepage": "https://github.com/alexeden/rpi-led-matrix#readme",
+  "homepage": "https://github.com/nvitaterna/rpi-led-matrix#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexeden/rpi-led-matrix.git"
+    "url": "git+https://github.com/nvitaterna/rpi-led-matrix.git"
   },
   "keywords": [
     "led",
