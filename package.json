@@ -39,7 +39,7 @@
     "example": "sudo ts-node -P examples/tsconfig.json",
     "format": "prettier --write src/ examples/",
     "lint": "eslint src/ examples/",
-    "merge-submodule-upstream": "(cd vendor && git fetch && git merge origin/master)",
+    "merge-submodule-upstream": "git submodule update --recursive --remote vendor",
     "prepublishOnly": "npm run lint && npm run build",
     "preversion": "npm run lint && npm run build",
     "quick-build": "npm run clean && node-gyp build && tsc -p src",
